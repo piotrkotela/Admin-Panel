@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  align-items: center;
+  height: fit-content;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.card img {
+  margin-top: 30px;
+  height: 250px;
+  width: 350px;
+  object-fit: contain;
+}
+
+.ratingBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card button {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  width: 120px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background-color: dodgerblue;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background-color: rgb(27, 123, 220);
+}
+
+.description {
+    padding: 20px;
+}

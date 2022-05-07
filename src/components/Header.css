@@ -1,0 +1,27 @@
+header {
+  max-width: 970px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header button {
+  outline: none;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 12px;
+  margin-left: 50px;
+  background-color: dodgerblue;
+  color: white;
+  transition: 0.3s;
+}
+
+header button:hover {
+  background-color: rgb(24, 123, 222);
+}
+
+header div p {
+  color: dodgerblue;
+}

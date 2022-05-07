@@ -1,0 +1,14 @@
+.option {
+    margin-left: 20px;
+}
+
+.option label {
+    margin-left: 5px;
+}
+
+.productsSection {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

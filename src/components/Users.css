@@ -1,0 +1,84 @@
+.mainBox {
+  width:fit-content;
+  margin: 0 auto;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.options button {
+  outline: none;
+  border: 2px dodgerblue solid;
+  border-radius: 20px;
+  padding: 8px 15px;
+  color: dodgerblue;
+  margin-left: 10px;
+  background-color: transparent;
+  font-weight: bolder;
+  transition: 0.3s;
+}
+
+.options button:hover {
+  color: white;
+  background-color: dodgerblue;
+}
+
+.twoUsers {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.twoUsers .hideButton {
+  margin-left: 20px;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  color: white;
+  transition: 0.3s;
+}
+.twoUsers .hideButton:hover {
+  background-color: rgb(25, 124, 223);
+
+}
+
+.userTable {
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 0.9em;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.userTable thead tr {
+  background-color: dodgerblue;
+  color: #ffffff;
+  text-align: left;
+}
+
+.userTable th,
+.userTable td {
+  padding: 20px 40px;
+}
+
+.fullName, .adress {
+  text-transform: capitalize;
+}
+
+.userTable tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.userTable tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.userTable tbody tr:last-of-type {
+  border-bottom: 2px solid dodgerblue;
+}
